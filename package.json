@@ -1,13 +1,15 @@
 {
   "name": "changesets-test",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "version": "changeset version",
+    "publish": "changeset publish"
   },
   "dependencies": {
     "react": "^18.2.0",
