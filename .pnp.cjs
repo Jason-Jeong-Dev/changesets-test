@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@changesets/changelog-github", "npm:0.4.8"],\
             ["@changesets/cli", "npm:2.26.2"],\
+            ["@changesets/get-release-plan", "npm:3.0.17"],\
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
             ["@typescript-eslint/eslint-plugin", "virtual:d1f1faf6899d1405956e351798c9be154f9bc201af42608dc376b1c107ce165151f5744cb37d0ccbeb45e22c7df954b6dbc4b4449cb0ba3ec864b9e14dd7c840#npm:5.61.0"],\
@@ -1656,6 +1657,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["changesets-test", "workspace:."],\
             ["@changesets/changelog-github", "npm:0.4.8"],\
             ["@changesets/cli", "npm:2.26.2"],\
+            ["@changesets/get-release-plan", "npm:3.0.17"],\
             ["@types/react", "npm:18.2.14"],\
             ["@types/react-dom", "npm:18.2.6"],\
             ["@typescript-eslint/eslint-plugin", "virtual:d1f1faf6899d1405956e351798c9be154f9bc201af42608dc376b1c107ce165151f5744cb37d0ccbeb45e22c7df954b6dbc4b4449cb0ba3ec864b9e14dd7c840#npm:5.61.0"],\
