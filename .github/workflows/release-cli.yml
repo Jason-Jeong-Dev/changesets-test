@@ -24,10 +24,39 @@ jobs:
         run: yarn
 
       - name: Create Release Pull Request
+        id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn version-packages
-          publish: yarn publish
+          versions: |
+            echo "changeset version output:"
+            output="$(yarn changeset version)"
+            echo "${output}"
+            echo "VERSION=${output}" >> $GITHUB_ENV
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate changelog
+        run: yarn generate-changelog
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.VERSION }}
+          name: Release ${{ env.VERSION }}
+          prerelease: true
+          body_path: ./CHANGELOG.md
+        if: startsWith(github.ref, 'refs/tags/')
+
+      - name: Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Release: ${{ env.VERSION }}"
+          git push
+
+      - name: Delete tag
+        run: git push --delete origin ${{ env.VERSION }}
 
