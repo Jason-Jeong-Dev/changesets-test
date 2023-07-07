@@ -1,13 +1,16 @@
-const { default: readChangesets } = require("@changesets/read");
-const { default: getReleasePlan } = require("@changesets/get-release-plan");
+const { read } = require("@changesets/read");
+const { getReleasePlan } = require("@changesets/release-plan");
 const { getReleaseLine } = require("@changesets/changelog-github");
 const fs = require("fs");
 const path = require("path");
 
 (async () => {
   const cwd = process.cwd();
-  const changesets = await readChangesets(cwd);
-  const releasePlan = await getReleasePlan(changesets);
+  const sinceRef = undefined; // 최근 터그되지 않은 변경 메시지 이후 모든 변경 메시지를 가져옵니다.
+  const changesets = await read(cwd, sinceRef);
+  const configPath = path.join(cwd, ".changeset", "config.json");
+  const releasePlan = await getReleasePlan(changesets, await import(configPath),
+    { cwd });
 
   const githubOptions = {
     repo: "changesets-test",
