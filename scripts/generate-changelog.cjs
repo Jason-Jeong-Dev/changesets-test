@@ -1,5 +1,5 @@
 const { read } = require("@changesets/read");
-const { getReleasePlan } = require("@changesets/release-plan");
+const { getReleasePlan } = require("@changesets/get-release-plan");
 const { getReleaseLine } = require("@changesets/changelog-github");
 const fs = require("fs");
 const path = require("path");
