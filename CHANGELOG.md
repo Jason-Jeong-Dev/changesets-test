@@ -1,5 +1,13 @@
 # changesets-test
 
+## 0.2.3
+
+### Patch Changes
+
+- 014a0b6: new
+- b514235: ~~ 수정
+- 7c551eb: change issue 1
+
 ## 0.2.2
 
 ### Patch Changes
