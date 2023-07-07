@@ -1,5 +1,15 @@
 # changesets-test
 
+## 0.3.0
+
+### Minor Changes
+
+- [`00dd8af`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/00dd8af03d11cd00308e34b3af7062e2fc4ab061) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - publish test
+
+### Patch Changes
+
+- [`18d1e25`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/18d1e2568fdd62543a291e2c05f3f1883ce2a023) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - new
+
 ## 0.2.3
 
 ### Patch Changes
