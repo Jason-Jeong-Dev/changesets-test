@@ -25,12 +25,14 @@ jobs:
 
       - name: Create Release Pull Request
         id: changesets
-        uses: changesets/action@master
+        uses: changesets/action@v1
         with:
           version: yarn version
           commit: 'chore: update versions'
+          title: 'chore: update versions'
+          publish: true
           createGithubReleases: true
-          setupGitUser: false
+          setupGitUser: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
