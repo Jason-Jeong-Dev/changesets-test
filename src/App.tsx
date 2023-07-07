@@ -9,7 +9,7 @@ function App() {
   const [count, setCount] = useState(0);
   // some changes
 
-  // new changes#1
+  // add home
 
   return (
     <>
