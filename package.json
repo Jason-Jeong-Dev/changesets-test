@@ -4,7 +4,7 @@
   "version": "0.3.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --mode development",
     "build": "tsc && vite build",
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "yarn eslint . --ext .ts,.tsx,.js --fix",
