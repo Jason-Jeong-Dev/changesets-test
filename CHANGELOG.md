@@ -1,5 +1,12 @@
 # changesets-test
 
+## 0.2.1
+
+### Patch Changes
+
+- 5cc74c9: add posts
+- 85bf154: add home
+
 ## 0.2.0
 
 ### Minor Changes
