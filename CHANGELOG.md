@@ -1,5 +1,11 @@
 # changesets-test
 
+## 0.3.1
+
+### Patch Changes
+
+- [#15](https://github.com/Jason-Jeong-Dev/changesets-test/pull/15) [`9407a61`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/9407a61521f62728c013d160f04a26a518ed74a2) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - fix: comment
+
 ## 0.3.0
 
 ### Minor Changes
