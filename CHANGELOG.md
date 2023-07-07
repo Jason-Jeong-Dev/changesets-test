@@ -1,5 +1,11 @@
 # changesets-test
 
+## 0.2.0
+
+### Minor Changes
+
+- 46198f2: new component add
+
 ## 0.1.1
 
 ### Patch Changes
