@@ -1,5 +1,12 @@
 # changesets-test
 
+## 0.1.1
+
+### Patch Changes
+
+- fb59a97: some commit
+- eb5604a: new change to my project
+
 ## 0.1.0
 
 ### Minor Changes
