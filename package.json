@@ -1,16 +1,20 @@
 {
   "name": "changesets-test",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "yarn lint:eslint && yarn lint:prettier",
+    "lint:eslint": "yarn eslint . --ext .ts,.tsx,.js --fix",
+    "lint:prettier": "prettier --list-different \"**/*.{js,ts,tsx,md}\"",
+    "prettier": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "preview": "vite preview",
     "version": "changeset version",
     "publish": "changeset publish",
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "version-packages": "changeset version && yarn lint"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -1,5 +1,13 @@
 # changesets-test
 
+## 0.2.2
+
+### Patch Changes
+
+- d6b3882: release 1
+- 58a401f: resolve issue#1
+- 0c93990: resolve issue
+
 ## 0.2.1
 
 ### Patch Changes
