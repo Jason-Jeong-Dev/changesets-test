@@ -10,6 +10,7 @@ function App() {
   // some changes
 
   // add home#1
+  // add home#1
 
   return (
     <>
