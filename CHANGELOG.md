@@ -1,5 +1,13 @@
 # changesets-test
 
+## 0.3.2
+
+### Patch Changes
+
+- [#18](https://github.com/Jason-Jeong-Dev/changesets-test/pull/18) [`9463aa5`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/9463aa523e638335fc957f4018d3a709aeb524bb) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - Release/0.2.4
+
+- [#17](https://github.com/Jason-Jeong-Dev/changesets-test/pull/17) [`f097c17`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/f097c175f5911f688d4ef63494ef2651db8f37cd) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - Release/0.2.4
+
 ## 0.3.1
 
 ### Patch Changes
