@@ -28,8 +28,6 @@ jobs:
         uses: changesets/action@v1
         with:
           version: yarn version
-          commit: 'chore: update versions'
-          title: 'chore: update versions'
           publish: true
           createGithubReleases: true
           setupGitUser: true
