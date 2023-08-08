@@ -2,10 +2,8 @@
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
   "changelog": ["@changesets/changelog-github", { "repo": "Jason-Jeong-Dev/changesets-test" }],
   "commit": false,
-  "privatePackages": {
-    "version": true,
-    "tag": false
-  },
+  "version": true,
+  "tag": false,
   "fixed": [],
   "linked": [],
   "access": "public",
