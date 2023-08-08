@@ -1,5 +1,11 @@
 # changesets-test
 
+## 1.1.0
+
+### Minor Changes
+
+- [`e6b1876`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/e6b1876c0cf1761a1bb20bc6179c6da149da61fb) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - qweqweqejhflfgjkahf
+
 ## 1.0.4
 
 ### Patch Changes

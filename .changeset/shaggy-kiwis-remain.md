@@ -1,5 +1,0 @@
----
-'changesets-test': minor
----
-
-qweqweqejhflfgjkahf
