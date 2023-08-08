@@ -1,5 +1,11 @@
 # changesets-test
 
+## 1.0.3
+
+### Patch Changes
+
+- [`c3e8ecf`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/c3e8ecf5678959e3bcc1ee5b9d360f327dd3f056) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - qweqwe
+
 ## 1.0.2
 
 ### Patch Changes
