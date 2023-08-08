@@ -3,14 +3,10 @@
   "changelog": ["@changesets/changelog-github", { "repo": "Jason-Jeong-Dev/changesets-test" }],
   "commit": false,
   "privatePackages": {
-    "changesets-test": [
-      {
-        "properties": {
-          "version": true,
-          "tag": false
-        }
-      }
-    ]
+    "properties": {
+      "version": true,
+      "tag": false
+    }
   },
   "fixed": [],
   "linked": [],
