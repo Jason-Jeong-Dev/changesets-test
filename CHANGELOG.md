@@ -1,5 +1,11 @@
 # changesets-test
 
+## 1.0.4
+
+### Patch Changes
+
+- [`64e8ec1`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/64e8ec1c814dda75cc61ee130da06a3d54d343a2) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - adsadasd
+
 ## 1.0.3
 
 ### Patch Changes
