@@ -23,14 +23,13 @@ jobs:
       - name: Install Dependencies
         run: yarn
 
-      - name: Create Release Pull Request
-        id: changesets
+      - name: Create Release with Changesets
         uses: changesets/action@v1
         with:
           version: yarn version
-          publish: true
-          createGithubReleases: true
-          setupGitUser: true
+          publish: yarn release
+          commit: 'chore: release'
+          title: 'chore: create new release'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
