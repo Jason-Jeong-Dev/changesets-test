@@ -1,5 +1,11 @@
 # changesets-test
 
+## 1.2.2
+
+### Patch Changes
+
+- [`e79e66d`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/e79e66d6d10c376b5e63a76075c8d597bf031172) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - 1111
+
 ## 1.2.1
 
 ### Patch Changes
