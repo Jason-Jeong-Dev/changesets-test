@@ -12,6 +12,7 @@
     "prettier": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "preview": "vite preview",
     "version": "changeset version",
+    "release": "changeset release",
     "publish": "changeset publish",
     "changeset": "changeset",
     "generate-changelog": "node scripts/generate-changelog.cjs",
