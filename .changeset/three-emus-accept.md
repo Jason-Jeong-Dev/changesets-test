@@ -1,5 +1,0 @@
----
-'changesets-test': patch
----
-
-sdasdasd

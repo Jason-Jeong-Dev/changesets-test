@@ -1,5 +1,11 @@
 # changesets-test
 
+## 1.2.3
+
+### Patch Changes
+
+- [`fecddbb`](https://github.com/Jason-Jeong-Dev/changesets-test/commit/fecddbbd3adc7330246210bae026ed5e12126e74) Thanks [@Jason-Jeong-Dev](https://github.com/Jason-Jeong-Dev)! - sdasdasd
+
 ## 1.2.2
 
 ### Patch Changes
